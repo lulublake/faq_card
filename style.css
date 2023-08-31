@@ -26,10 +26,8 @@ body{
 }
 
 /* IMAGES */
-/* .images{
 
-} */
-.images img{
+/* .images img{
     position: absolute;
 }
 .images img:nth-child(1){
@@ -48,7 +46,7 @@ body{
     width: 500px;
     right: 55%;
     top: 28%;
-}
+} */
 
 /* TEXT */
 .text{
@@ -117,4 +115,24 @@ h1{
 }
 .additional-question.active{
     font-weight: bold;
+}
+
+
+
+/****** Osahon did this ******/
+
+
+.card {
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.images {
+    background-image: url(images/bg-pattern-desktop.svg), url(images/illustration-woman-online-desktop.svg);
+    background-position: center left;
+    background-size: 25rem auto;
+    background-repeat: no-repeat;
+    min-width: 25rem;
+    margin-left: -2.5rem;
+    overflow: visible;
 }
